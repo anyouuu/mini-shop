@@ -1,0 +1,30 @@
+{
+	"name":"xin/container",
+	"description":"严格基于PSR11规范实现基础的容器和依赖注入",
+	"type":"library",
+	"version":"2.0.1",
+	"authors":[
+		{
+			"name":"晋",
+			"email":"657306123@qq.com"
+		}
+	],
+	"autoload":{
+		"psr-4":{
+			"xin\\container\\":"src/"
+		}
+	},
+	"license":"Apache-2.0",
+	"minimum-stability":"stable",
+	"require":{
+		"ext-json":"*",
+		"ext-openssl":"*",
+		"ext-mbstring":"*",
+		"ext-iconv":"*",
+		"ext-ctype":"*",
+		"ext-libxml":"*",
+		"ext-simplexml":"*",
+		"psr/container":"^1.0",
+		"xin/helper":"^1.0"
+	}
+}
